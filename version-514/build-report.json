@@ -1,0 +1,21 @@
+{
+  "records": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "html_pages": 2016,
+  "baidu_script_pages": 2016,
+  "jpg_files_in_zip_source": 0,
+  "has_forbidden_window_movie_source": false,
+  "category_distribution": {
+    "亚洲经典馆": 200,
+    "高清电影馆": 200,
+    "剧集精选馆": 200,
+    "悬疑惊悚馆": 200,
+    "动作冒险馆": 200,
+    "爱情家庭馆": 200,
+    "科幻奇幻馆": 200,
+    "古装历史馆": 200,
+    "青春喜剧馆": 200,
+    "高分热播馆": 200
+  }
+}

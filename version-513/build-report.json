@@ -1,0 +1,16 @@
+{
+  "movie_records": 1986,
+  "detail_pages": 1986,
+  "html_pages": 2000,
+  "category_pages": 10,
+  "category_coverage": 1986,
+  "category_coverage_unique": 1986,
+  "missing_detail_pages": 0,
+  "image_files_in_output": 0,
+  "m3u8_sources_found": 20,
+  "html_missing_ads_widget": [],
+  "html_missing_baidu": [],
+  "ads_widget_not_before_title": [],
+  "forbidden_visible_phrases": [],
+  "zip_size_bytes": 9900349
+}

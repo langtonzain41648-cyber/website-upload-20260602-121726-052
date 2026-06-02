@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索筛选 - 热门国产视频-热门好看的视频大全-分类内容持续更新</title>
+    <meta name="description" content="搜索热门国产视频、国产视频、热门视频和精选片库内容。">
+    <meta name="keywords" content="热门国产视频,国产视频,热门视频,视频大全,精选内容,分类浏览,片库更新,搜索,筛选">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#020617">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <nav class="site-nav" aria-label="主导航">
+        <div class="nav-shell">
+            <a class="brand" href="index.html" aria-label="热门国产视频首页">
+                <span class="brand-icon" aria-hidden="true">▶</span>
+                <span class="brand-text">热门国产视频</span>
+            </a>
+            <div class="desktop-nav">
+                <a class="nav-link" href="index.html">首页</a>
+                <a class="nav-link" href="categories.html">分类</a>
+                <a class="nav-link" href="rankings.html">排行榜</a>
+                <a class="nav-link" href="category/hot-guochan.html">热门国产</a>
+                <a class="nav-link" href="category/jingxuan-video.html">精选视频</a>
+                <a class="nav-link" href="category/renqi-juchang.html">人气剧场</a>
+                <a class="nav-link" href="category/gaoqing-pianku.html">高清片库</a>
+                <button class="nav-search-button" type="button" data-search-toggle aria-label="打开搜索">⌕</button>
+            </div>
+            <button class="mobile-menu-button" type="button" data-menu-toggle aria-label="打开菜单">☰</button>
+        </div>
+        <div class="nav-search" data-search-panel hidden>
+            <form class="nav-search-form" action="search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片、标签、地区..." autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+        <div class="mobile-panel" data-mobile-panel hidden>
+            <a class="mobile-link" href="index.html">首页</a>
+            <a class="mobile-link" href="categories.html">分类总览</a>
+            <a class="mobile-link" href="rankings.html">排行榜</a>
+            <a class="mobile-link" href="search.html">搜索</a>
+            <a class="mobile-link" href="category/hot-guochan.html">热门国产</a>
+            <a class="mobile-link" href="category/jingxuan-video.html">精选视频</a>
+            <a class="mobile-link" href="category/renqi-juchang.html">人气剧场</a>
+            <a class="mobile-link" href="category/gaoqing-pianku.html">高清片库</a>
+            <a class="mobile-link" href="category/koubei-tuijian.html">口碑推荐</a>
+            <a class="mobile-link" href="category/chixu-gengxin.html">持续更新</a>
+            <a class="mobile-link" href="category/zhuti-zhuanqu.html">主题专区</a>
+            <a class="mobile-link" href="category/gengduo-haopian.html">更多好片</a>
+        </div>
+    </nav>
+    <main>
+        <section class="page-hero compact-hero search-hero">
+            <div class="container">
+                <span class="eyebrow">搜索筛选</span>
+                <h1>搜索热门国产视频</h1>
+                <p>支持按标题、标签、地区、类型、年份、分类快速筛选。</p>
+                <form class="big-search" data-search-page-form>
+                    <input type="search" name="q" placeholder="输入影片名、标签或地区" autocomplete="off">
+                    <button type="submit">搜索</button>
+                </form>
+            </div>
+        </section>
+        <section class="container section-block">
+            <div class="search-controls" data-search-controls>
+                <select name="category" aria-label="分类">
+                    <option value="">全部分类</option>
+                    <option value="热门国产">热门国产</option><option value="精选视频">精选视频</option><option value="人气剧场">人气剧场</option><option value="高清片库">高清片库</option><option value="口碑推荐">口碑推荐</option><option value="持续更新">持续更新</option><option value="主题专区">主题专区</option><option value="更多好片">更多好片</option>
+                </select>
+                <select name="type" aria-label="类型">
+                    <option value="">全部类型</option>
+                    <option value="TV 剧集">TV 剧集</option><option value="TV剧">TV剧</option><option value="TV剧集">TV剧集</option><option value="TV动画">TV动画</option><option value="剧场版动画">剧场版动画</option><option value="剧集">剧集</option><option value="剧集 / 动漫">剧集 / 动漫</option><option value="剧集 / 动画">剧集 / 动画</option><option value="剧集（短剧）">剧集（短剧）</option><option value="剧集（迷你剧）">剧集（迷你剧）</option><option value="动态漫画">动态漫画</option><option value="动漫">动漫</option><option value="动漫剧集">动漫剧集</option><option value="动画">动画</option><option value="动画 / 剧场版">动画 / 剧场版</option><option value="动画 / 电影">动画 / 电影</option><option value="动画剧集">动画剧集</option><option value="动画片">动画片</option><option value="动画电影">动画电影</option><option value="动画短片">动画短片</option><option value="动画短片集">动画短片集</option><option value="特别篇">特别篇</option><option value="电影">电影</option><option value="电影 (动画)">电影 (动画)</option><option value="电影 / 动画">电影 / 动画</option><option value="电影 / 特别节目">电影 / 特别节目</option><option value="电影 / 网络电影">电影 / 网络电影</option><option value="电影 剧情，爱情">电影 剧情，爱情</option><option value="电影 动画">电影 动画</option><option value="电影, 喜剧">电影, 喜剧</option><option value="电影短片">电影短片</option><option value="电影（动画）">电影（动画）</option><option value="电视剧">电视剧</option><option value="电视剧 (10集)">电视剧 (10集)</option><option value="电视剧 (20集)">电视剧 (20集)</option><option value="电视剧 (36集)">电视剧 (36集)</option><option value="电视剧 (剧集) / 动画">电视剧 (剧集) / 动画</option><option value="电视剧 (校园)">电视剧 (校园)</option><option value="电视剧 (迷你剧)">电视剧 (迷你剧)</option><option value="电视剧 / 网络剧">电视剧 / 网络剧</option><option value="电视剧 / 限定剧">电视剧 / 限定剧</option><option value="电视剧 MINISERIES: 是">电视剧 MINISERIES: 是</option><option value="电视剧特别篇">电视剧特别篇</option><option value="短片">短片</option><option value="纪录片">纪录片</option><option value="纪录片 / 剧集">纪录片 / 剧集</option><option value="综艺">综艺</option><option value="综艺 / 电影">综艺 / 电影</option><option value="综艺/剧集">综艺/剧集</option><option value="综艺/电影">综艺/电影</option><option value="综艺/真人秀">综艺/真人秀</option><option value="网剧">网剧</option><option value="网络剧">网络剧</option><option value="网络电影">网络电影</option><option value="网络短剧">网络短剧</option>
+                </select>
+                <select name="year" aria-label="年份">
+                    <option value="">全部年份</option>
+                    <option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option>
+                </select>
+            </div>
+            <div class="section-heading">
+                <h2 data-search-title>热门搜索推荐</h2>
+                <span class="muted-text" data-search-count>默认展示 24 部</span>
+            </div>
+            <div class="grid grid-library" data-search-results>
+                <article class="movie-card movie-card-small" data-card data-title="怪火" data-tags="自燃 小镇 秘密 调查" data-category="人气剧场" data-year="2019">
+                    <a href="video/0265.html" class="card-link" aria-label="观看怪火">
+                        <div class="card-cover">
+                            <img src="115.jpg" alt="怪火" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>怪火</h3>
+                            <p>一个偏僻小镇接连发生人体自燃事件，消防员与记者发现所有死者都曾加入过一个神秘组织。</p>
+                            <div class="card-meta">
+                                <span>人气剧场</span>
+                                <span>101:50</span>
+                            </div>
+                            <div class="card-tags"><span>#自燃</span><span>#小镇</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="暗黑街的对决" data-tags="黑白片 任侠 东京 背叛 刀战" data-category="更多好片" data-year="1962">
+                    <a href="video/0506.html" class="card-link" aria-label="观看暗黑街的对决">
+                        <div class="card-cover">
+                            <img src="56.jpg" alt="暗黑街的对决" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>暗黑街的对决</h3>
+                            <p>东京暗黑街两大帮派火并在即，一名卧底警察却发现自己对黑帮义子产生了无法言说的情感。</p>
+                            <div class="card-meta">
+                                <span>更多好片</span>
+                                <span>53:01</span>
+                            </div>
+                            <div class="card-tags"><span>#黑白片</span><span>#任侠</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="桂河大桥" data-tags="二战 战俘 反战 人性拷问" data-category="人气剧场" data-year="2026">
+                    <a href="video/1728.html" class="card-link" aria-label="观看桂河大桥">
+                        <div class="card-cover">
+                            <img src="78.jpg" alt="桂河大桥" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>桂河大桥</h3>
+                            <p>桂河大桥修建背后另有隐情，战俘营里隐藏着一个足以改变战争结局的惊天密码。</p>
+                            <div class="card-meta">
+                                <span>人气剧场</span>
+                                <span>68:52</span>
+                            </div>
+                            <div class="card-tags"><span>#二战</span><span>#战俘</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="挣脱枷锁" data-tags="女性励志 摔跤 种姓制度 逆袭" data-category="高清片库" data-year="2024">
+                    <a href="video/1727.html" class="card-link" aria-label="观看挣脱枷锁">
+                        <div class="card-cover">
+                            <img src="77.jpg" alt="挣脱枷锁" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>挣脱枷锁</h3>
+                            <p>低种姓女孩想学摔跤，全村反对，她唯一的教练是曾经因“背叛种姓”而被逐出村落的同乡。</p>
+                            <div class="card-meta">
+                                <span>高清片库</span>
+                                <span>96:34</span>
+                            </div>
+                            <div class="card-tags"><span>#女性励志</span><span>#摔跤</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="我的日语老师" data-tags="跨文化 师生 治愈" data-category="热门国产" data-year="2024">
+                    <a href="video/1212.html" class="card-link" aria-label="观看我的日语老师">
+                        <div class="card-cover">
+                            <img src="12.jpg" alt="我的日语老师" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>我的日语老师</h3>
+                            <p>下岗工人为追日剧学日语，却发现五十岁的女老师年轻时曾是日本的当红偶像。</p>
+                            <div class="card-meta">
+                                <span>热门国产</span>
+                                <span>92:01</span>
+                            </div>
+                            <div class="card-tags"><span>#跨文化</span><span>#师生</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="旷课检查员" data-tags="学园 治愈 单元剧 反套路" data-category="主题专区" data-year="2019">
+                    <a href="video/0372.html" class="card-link" aria-label="观看旷课检查员">
+                        <div class="card-cover">
+                            <img src="72.jpg" alt="旷课检查员" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>旷课检查员</h3>
+                            <p>一个连自己名字都写不好的笨拙大叔，却是全日本最让不良少年害怕的旷课检查员。</p>
+                            <div class="card-meta">
+                                <span>主题专区</span>
+                                <span>44:35</span>
+                            </div>
+                            <div class="card-tags"><span>#学园</span><span>#治愈</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="我生命中的八天" data-tags="绝症 倒计时 亲情 极简主义" data-category="持续更新" data-year="2018">
+                    <a href="video/1177.html" class="card-link" aria-label="观看我生命中的八天">
+                        <div class="card-cover">
+                            <img src="127.jpg" alt="我生命中的八天" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>我生命中的八天</h3>
+                            <p>得知只剩八天生命后，男人没有告诉任何人，用最后八天以普通的一天为模板活了一遍又一遍。</p>
+                            <div class="card-meta">
+                                <span>持续更新</span>
+                                <span>38:35</span>
+                            </div>
+                            <div class="card-tags"><span>#绝症</span><span>#倒计时</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="王蛇帝国" data-tags="贩毒集团 权力游戏 家族恩怨 暴力美学" data-category="主题专区" data-year="2025">
+                    <a href="video/1878.html" class="card-link" aria-label="观看王蛇帝国">
+                        <div class="card-cover">
+                            <img src="78.jpg" alt="王蛇帝国" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>王蛇帝国</h3>
+                            <p>当老迈的毒枭决定金盆洗手，他三个性格迥异的儿子用血与火重新划定了王国的边界。</p>
+                            <div class="card-meta">
+                                <span>主题专区</span>
+                                <span>96:10</span>
+                            </div>
+                            <div class="card-tags"><span>#贩毒集团</span><span>#权力游戏</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="牡丹花血案" data-tags="邵氏风格 奇案 戏曲元素 反转" data-category="口碑推荐" data-year="1995">
+                    <a href="video/0282.html" class="card-link" aria-label="观看牡丹花血案">
+                        <div class="card-cover">
+                            <img src="132.jpg" alt="牡丹花血案" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>牡丹花血案</h3>
+                            <p>牡丹花会上名妓离奇毙命，身上纹了一朵会变色的牡丹，牵扯出二十年宫廷秘闻。</p>
+                            <div class="card-meta">
+                                <span>口碑推荐</span>
+                                <span>80:37</span>
+                            </div>
+                            <div class="card-tags"><span>#邵氏风格</span><span>#奇案</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="艾雅" data-tags="少数民族 大象 生态 治愈 亲情" data-category="精选视频" data-year="2025">
+                    <a href="video/1900.html" class="card-link" aria-label="观看艾雅">
+                        <div class="card-cover">
+                            <img src="100.jpg" alt="艾雅" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>艾雅</h3>
+                            <p>云南雨林少女为拯救受伤的小象，与它结伴踏上寻找象群的奇幻旅程。</p>
+                            <div class="card-meta">
+                                <span>精选视频</span>
+                                <span>83:19</span>
+                            </div>
+                            <div class="card-tags"><span>#少数民族</span><span>#大象</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="风流侠盗走天涯" data-tags="侠盗 易容 民国 夺宝" data-category="人气剧场" data-year="1988">
+                    <a href="video/0933.html" class="card-link" aria-label="观看风流侠盗走天涯">
+                        <div class="card-cover">
+                            <img src="33.jpg" alt="风流侠盗走天涯" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>风流侠盗走天涯</h3>
+                            <p>自称“千面郎君”的骗子误打误撞偷了军阀的藏宝图，不得不拉上女警花组成临时搭档亡命天涯。</p>
+                            <div class="card-meta">
+                                <span>人气剧场</span>
+                                <span>96:42</span>
+                            </div>
+                            <div class="card-tags"><span>#侠盗</span><span>#易容</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="楚天风云" data-tags="民国 谍战 长江 宝藏" data-category="高清片库" data-year="2025">
+                    <a href="video/1798.html" class="card-link" aria-label="观看楚天风云">
+                        <div class="card-cover">
+                            <img src="148.jpg" alt="楚天风云" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>楚天风云</h3>
+                            <p>1938年武汉会战前夕，一份标注了长江航道秘密水文点的日军地图落入江湖帮派手中。</p>
+                            <div class="card-meta">
+                                <span>高清片库</span>
+                                <span>88:50</span>
+                            </div>
+                            <div class="card-tags"><span>#民国</span><span>#谍战</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="终极特警第一季" data-tags="反恐 室内近战 战术写实 孤胆英雄" data-category="人气剧场" data-year="2025">
+                    <a href="video/1844.html" class="card-link" aria-label="观看终极特警第一季">
+                        <div class="card-cover">
+                            <img src="44.jpg" alt="终极特警第一季" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>终极特警第一季</h3>
+                            <p>伦敦被封锁，一栋楼里藏着能瘫痪欧洲的病毒，一个被停职的特警必须在黎明前清除威胁。</p>
+                            <div class="card-meta">
+                                <span>人气剧场</span>
+                                <span>89:26</span>
+                            </div>
+                            <div class="card-tags"><span>#反恐</span><span>#室内近战</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="巴黎 美丽年代" data-tags="美好时代 红磨坊 复古浪漫" data-category="精选视频" data-year="2018">
+                    <a href="video/1703.html" class="card-link" aria-label="观看巴黎 美丽年代">
+                        <div class="card-cover">
+                            <img src="53.jpg" alt="巴黎 美丽年代" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>巴黎 美丽年代</h3>
+                            <p>2018年的修复师意外穿越回1890年的巴黎，必须在“美好年代”的烟花中找回一幅失落的油画。</p>
+                            <div class="card-meta">
+                                <span>精选视频</span>
+                                <span>47:00</span>
+                            </div>
+                            <div class="card-tags"><span>#美好时代</span><span>#红磨坊</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="夫妻报国捐躯" data-tags="抗战 谍战 牺牲 真实事件改编" data-category="高清片库" data-year="2024">
+                    <a href="video/0244.html" class="card-link" aria-label="观看夫妻报国捐躯">
+                        <div class="card-cover">
+                            <img src="94.jpg" alt="夫妻报国捐躯" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>夫妻报国捐躯</h3>
+                            <p>新婚仅百天的特工夫妇，为传递一张地图先后选择自尽。</p>
+                            <div class="card-meta">
+                                <span>高清片库</span>
+                                <span>66:24</span>
+                            </div>
+                            <div class="card-tags"><span>#抗战</span><span>#谍战</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="乌鸦小姐与蜥蜴先生" data-tags="萌宠 治愈 前世今生" data-category="高清片库" data-year="2021">
+                    <a href="video/1606.html" class="card-link" aria-label="观看乌鸦小姐与蜥蜴先生">
+                        <div class="card-cover">
+                            <img src="106.jpg" alt="乌鸦小姐与蜥蜴先生" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>乌鸦小姐与蜥蜴先生</h3>
+                            <p>她是天生倒霉的乌鸦嘴设计师，他是冷血寿限仅剩一年的蜥蜴先生，互怼中发现彼此是前世恋人。</p>
+                            <div class="card-meta">
+                                <span>高清片库</span>
+                                <span>59:23</span>
+                            </div>
+                            <div class="card-tags"><span>#萌宠</span><span>#治愈</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="黄金鸟" data-tags="艺术品 诈骗 家族秘密 悬疑 反转" data-category="热门国产" data-year="2023">
+                    <a href="video/0622.html" class="card-link" aria-label="观看黄金鸟">
+                        <div class="card-cover">
+                            <img src="22.jpg" alt="黄金鸟" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>黄金鸟</h3>
+                            <p>一幅价值连城的《黄金鸟》真迹背后，藏着一个家族三代人不敢告人的谋杀案。</p>
+                            <div class="card-meta">
+                                <span>热门国产</span>
+                                <span>40:43</span>
+                            </div>
+                            <div class="card-tags"><span>#艺术品</span><span>#诈骗</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="海角红颜" data-tags="琼瑶式 虐恋 海边 绝症 怀旧" data-category="持续更新" data-year="1982">
+                    <a href="video/1322.html" class="card-link" aria-label="观看海角红颜">
+                        <div class="card-cover">
+                            <img src="122.jpg" alt="海角红颜" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>海角红颜</h3>
+                            <p>一名患绝症的富家千金，在海边小屋与穷画家度过人生最后一个月，却发现身份错位。</p>
+                            <div class="card-meta">
+                                <span>持续更新</span>
+                                <span>55:12</span>
+                            </div>
+                            <div class="card-tags"><span>#琼瑶式</span><span>#虐恋</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="青春祭" data-tags="文革反思 知青岁月 诗意现实主义 第四代导演" data-category="更多好片" data-year="1985">
+                    <a href="video/0865.html" class="card-link" aria-label="观看青春祭">
+                        <div class="card-cover">
+                            <img src="115.jpg" alt="青春祭" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>青春祭</h3>
+                            <p>少女来到云南傣乡插队，在美丽而封闭的边寨里，她用青春与生命祭奠了一个时代的荒谬。</p>
+                            <div class="card-meta">
+                                <span>更多好片</span>
+                                <span>89:35</span>
+                            </div>
+                            <div class="card-tags"><span>#文革反思</span><span>#知青岁月</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="绝色小神医" data-tags="神医 逆袭 甜宠 女强 爽剧" data-category="精选视频" data-year="2025">
+                    <a href="video/1811.html" class="card-link" aria-label="观看绝色小神医">
+                        <div class="card-cover">
+                            <img src="11.jpg" alt="绝色小神医" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>绝色小神医</h3>
+                            <p>失忆的医仙谷传人沦落青楼，却用一根银针让全城权贵跪着求医。</p>
+                            <div class="card-meta">
+                                <span>精选视频</span>
+                                <span>91:43</span>
+                            </div>
+                            <div class="card-tags"><span>#神医</span><span>#逆袭</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="海啸与樱花" data-tags="311大地震 海啸 生死 樱花" data-category="主题专区" data-year="2015">
+                    <a href="video/0154.html" class="card-link" aria-label="观看海啸与樱花">
+                        <div class="card-cover">
+                            <img src="4.jpg" alt="海啸与樱花" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>海啸与樱花</h3>
+                            <p>海啸卷走了整个小镇，第二年春天，废墟里唯一活着的，是一棵三百年的樱花树。</p>
+                            <div class="card-meta">
+                                <span>主题专区</span>
+                                <span>99:05</span>
+                            </div>
+                            <div class="card-tags"><span>#311大地震</span><span>#海啸</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="因为爱情" data-tags="多线叙事 分手 重逢 人性与爱" data-category="持续更新" data-year="2018">
+                    <a href="video/0937.html" class="card-link" aria-label="观看因为爱情">
+                        <div class="card-cover">
+                            <img src="37.jpg" alt="因为爱情" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>因为爱情</h3>
+                            <p>三对不同年龄段的情侣，在同一座城市里，上演爱与不爱的选择题。</p>
+                            <div class="card-meta">
+                                <span>持续更新</span>
+                                <span>51:22</span>
+                            </div>
+                            <div class="card-tags"><span>#多线叙事</span><span>#分手</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="浅坟" data-tags="黑色电影 背叛 密闭空间 暴雨" data-category="人气剧场" data-year="2025">
+                    <a href="video/1919.html" class="card-link" aria-label="观看浅坟">
+                        <div class="card-cover">
+                            <img src="119.jpg" alt="浅坟" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>浅坟</h3>
+                            <p>三个室友合埋了一具尸体，第二天他们发现：房子外面的世界已经完全消失了。</p>
+                            <div class="card-meta">
+                                <span>人气剧场</span>
+                                <span>64:31</span>
+                            </div>
+                            <div class="card-tags"><span>#黑色电影</span><span>#背叛</span></div>
+                        </div>
+                    </a>
+                </article>
+                <article class="movie-card movie-card-small" data-card data-title="艺伎回忆录" data-tags="艺伎 京都 二战 女性 命运" data-category="主题专区" data-year="2026">
+                    <a href="video/0563.html" class="card-link" aria-label="观看艺伎回忆录">
+                        <div class="card-cover">
+                            <img src="113.jpg" alt="艺伎回忆录" class="card-image" loading="lazy" data-cover-image>
+                            <div class="card-shade"></div>
+                            <div class="play-float">▶</div>
+                            
+                        </div>
+                        <div class="card-content">
+                            <h3>艺伎回忆录</h3>
+                            <p>一个渔村女孩历经磨难成为京都最著名艺伎，却在二战炮火中为了真爱烧毁了象征着束缚的置屋。</p>
+                            <div class="card-meta">
+                                <span>主题专区</span>
+                                <span>94:01</span>
+                            </div>
+                            <div class="card-tags"><span>#艺伎</span><span>#京都</span></div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a class="brand footer-logo" href="index.html">
+                    <span class="brand-icon" aria-hidden="true">▶</span>
+                    <span class="brand-text">热门国产视频</span>
+                </a>
+                <p>热门国产视频栏目按关注度整理，覆盖精选视频、热门片库和持续更新内容。</p>
+            </div>
+            <div>
+                <h3>热门分类</h3>
+                <ul>
+                    <li><a href="category/hot-guochan.html">热门国产</a></li>
+                    <li><a href="category/jingxuan-video.html">精选视频</a></li>
+                    <li><a href="category/renqi-juchang.html">人气剧场</a></li>
+                    <li><a href="category/gaoqing-pianku.html">高清片库</a></li>
+                    <li><a href="category/koubei-tuijian.html">口碑推荐</a></li>
+                    <li><a href="category/chixu-gengxin.html">持续更新</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>站点导航</h3>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="categories.html">分类总览</a></li>
+                    <li><a href="rankings.html">排行榜</a></li>
+                    <li><a href="search.html">搜索筛选</a></li>
+                    <li><a href="sitemap.xml">站点地图</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/data/movies.js"></script>
+    <script src="assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
